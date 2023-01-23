@@ -1,6 +1,4 @@
 .place {
-    display: flex;
-    flex-wrap: wrap;
     height: min-content;
     padding-bottom: 48px;
     display: grid;
