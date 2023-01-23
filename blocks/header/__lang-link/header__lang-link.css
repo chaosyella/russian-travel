@@ -1,0 +1,22 @@
+.header__lang-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 18px;
+}
+
+.header__lang-link:hover {
+    color: #fff;
+    opacity: .8;
+    transition: opacity ease-in-out .5s;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

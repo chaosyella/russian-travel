@@ -1,0 +1,21 @@
+.place__image {
+    min-width: 440px;
+    width: 100%;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        min-width: 320px;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        position: relative;
+        left: -5%;
+        width: 107.5%;
+    }
+}
