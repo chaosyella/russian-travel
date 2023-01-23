@@ -3,7 +3,6 @@
 ### Обзор
 * Интро
 * Figma
-* Картинки
 * Методы создания
 
 **Интро**
@@ -14,25 +13,23 @@
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
 **Методы создания**
 
 * Адаптивная верстка
 
 
 * Grid
+
 ```css
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
 }
+```
 
 * Медиазапросы
+
 ```css
 @media screen and (max-width: 320px) {
     .cover__item {
@@ -42,8 +39,10 @@
         min-height: 200px;
     }
 }
+```
 
 * Flex
+
 ```css
 .cover__item {
     display: flex;
@@ -51,8 +50,10 @@
     align-items: center;
     justify-content: center;
 }
+```
 
 * Псевдоклассы
+
 ```css
 .cover__item::before {
     content: "";
@@ -63,17 +64,22 @@
     background-color: #2A2C2F;
     opacity: .3;
 }
+```
 
 * Nested
+
 ```css
 @import url(./../vendor/normalize.css);
 @import url(./../fonts/fonts.css);
 @import url(./../blocks/page/page.css);
+```
 
 * Подключение шрифтов
+
 ```css
 @font-face {
     font-family: 'Inter';
     src: url(./Inter-Web/Inter-Regular.woff) format('woof');
     src: url(./Inter-Web/Inter-Regular.woff2) format('woff2');
 }
+```
