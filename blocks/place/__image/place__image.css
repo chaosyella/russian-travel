@@ -5,17 +5,17 @@
     grid-column: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .place__image {
         min-width: 320px;
         width: 75%;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .place__image {
         position: relative;
         left: -5%;
-        width: 107.5%;
+        width: 99vw;
     }
 }

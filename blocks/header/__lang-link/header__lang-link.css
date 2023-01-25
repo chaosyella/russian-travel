@@ -13,9 +13,8 @@
     transition: opacity ease-in-out .5s;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .header__lang-link {
-        font-weight: 400;
         font-size: 18px;
         line-height: 20px;
     }

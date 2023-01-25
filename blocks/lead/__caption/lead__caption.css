@@ -5,14 +5,6 @@
     width: max-content;
     align-self: start;
     margin: 8px 0 0;
-    padding-left: 2.5%;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-}
-
-@media screen and (min-width: 1280px) {
-    .lead__caption {
-        align-self: center;
-        margin-right: 900px;
-    }
 }
