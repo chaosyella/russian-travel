@@ -80,7 +80,7 @@
 ```css
 @font-face {
     font-family: 'Inter';
-    src: url(./Inter-Web/Inter-Regular.woff) format('woof');
+    src: url(./Inter-Web/Inter-Regular.woff) format('woff');
     src: url(./Inter-Web/Inter-Regular.woff2) format('woff2');
 }
 ```
