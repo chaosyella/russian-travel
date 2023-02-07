@@ -7,8 +7,7 @@
 
 @media screen and (max-width: 1023px) {
     .place__image {
-        min-width: 320px;
-        width: 75%;
+        min-width: 340px;
     }
 }
 
@@ -16,6 +15,12 @@
     .place__image {
         position: relative;
         left: -5%;
-        width: 99vw;
+        min-width: 320px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__image {
+        min-width: 460px;
     }
 }

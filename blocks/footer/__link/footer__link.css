@@ -1,5 +1,5 @@
 .footer__link {
-    padding-right: 18px;
+    margin-right: 18px;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
@@ -8,7 +8,6 @@
 }
 
 .footer__link:hover {
-    color: #fff;
     opacity: .8;
     transition: opacity ease-in-out .5s;
 }
@@ -16,12 +15,13 @@
 
 @media screen and (max-width: 767px) {
     .footer__link {
+        max-width: fit-content;
         font-size: 24px;
         line-height: 24px;
-        padding-bottom: 32px;
-        padding-right: 0;
+        margin-bottom: 32px;
+        margin-right: 0;
     }
     .footer__link:last-of-type {
-        padding-bottom: 0;
+        margin-bottom: 0;
     }
 }

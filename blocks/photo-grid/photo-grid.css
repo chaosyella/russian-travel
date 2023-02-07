@@ -14,14 +14,16 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .photo-grid {
         margin-bottom: 92px;
+        width: 91%;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .photo-grid {
+        width: 94%;
         max-width: 1280px;
     }
 }

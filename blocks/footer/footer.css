@@ -11,3 +11,16 @@
         flex-direction: column;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        width: 95%;
+    }
+}
+

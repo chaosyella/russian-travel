@@ -8,7 +8,6 @@
 }
 
 .place__link:hover {
-    color: #fff;
     opacity: .8;
     transition: opacity ease-in-out .5s;
 }
